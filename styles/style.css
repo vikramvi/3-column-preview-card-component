@@ -1,3 +1,7 @@
+/* Write GOOD comments so that next developer ( killer psycopath who knows where you stay ) ... */
+/* .... who is going to maintain this code; need NOT have to get back to you */
+
+/* common properties */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +15,7 @@
   --text-color-transparent-white: hsla(0, 0%, 100%, 0.75);
 }
 
+/* mobile first approach */
 .cards-container {
   display: grid;
   grid-template-columns: auto;
@@ -26,10 +31,14 @@
   /* debuggin purpose only */
   /* border: 1px solid rgb(255, 0, 166); */
   padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 .card__icon-image-container {
-  margin: 0.5em;
+  margin: 1em;
   width: 48px;
   height: 30px;
 }
@@ -47,7 +56,7 @@
 }
 
 .card__info {
-  margin: 1em;
+  margin: 0 1em;
   width: 200px;
   font-size: 0.9em;
 }
@@ -60,7 +69,7 @@
 }
 
 .card__button-container {
-  margin: 0.5em;
+  margin: 1em;
 }
 .card__button {
   padding: 0.75em 1.25em;
