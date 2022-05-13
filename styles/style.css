@@ -8,6 +8,7 @@
   --card-background-bright-orange: hsl(31, 77%, 52%);
   --card-background-dark-cyan: hsl(184, 100%, 22%);
   --card-background-very-dark-cyan: hsl(179, 100%, 13%);
+  --text-color-transparent-white: hsla(0, 0%, 100%, 0.75);
 }
 
 .cards-container {
@@ -18,31 +19,53 @@
   justify-items: center;
   margin: 2em 1em;
   /* debuggin purpose only */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .card {
-  /* margin: 2em; */
   /* debuggin purpose only */
-  border: 1px solid rgb(255, 0, 166);
+  /* border: 1px solid rgb(255, 0, 166); */
+  padding: 1.5em;
+}
+
+.card__icon-image-container {
+  margin: 0.5em;
+  width: 48px;
+  height: 30px;
 }
 
 .card__icon-image {
-  margin: 0.5em;
+  width: 100%;
+  height: 100%;
 }
 
 .card__header {
   margin: 0.5em;
   font-size: 2em;
   text-transform: uppercase;
+  color: var(--text-color-transparent-white);
 }
 
 .card__info {
   margin: 1em;
+  width: 200px;
+  font-size: 0.9em;
 }
 
-.card__button {
+.card__span-text {
+  /* border: 1px solid green; */
+  display: block;
+  line-height: 1.5em;
+  color: var(--text-color-transparent-white);
+}
+
+.card__button-container {
   margin: 0.5em;
+}
+.card__button {
+  padding: 0.75em 1.25em;
+  border-radius: 1.5em;
+  border: none;
 }
 
 .card--brigt-orange-background {
@@ -55,4 +78,14 @@
 
 .card--very-dark-cyan-background {
   background-color: var(--card-background-very-dark-cyan);
+}
+
+.card--top-rounded-corners {
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+
+.card--bottom-rounded-corners {
+  border-bottom-left-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
 }
