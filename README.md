@@ -16,6 +16,14 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+## Overview
+
+This is 5th project from "Frontend Mentor" to sharpen HTML & CSS skills along with responsive web design and it's build with BEM and Grid layout 1st time.
+
+### The challenge
+
+Learnt BEM and Grid Layout first and later implemented first time in a project.
+
 ### Screenshot
 
 ![Google Drawing](./screenshots/drawing.png)
@@ -27,6 +35,26 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - [Solution URL ](https://vikramvi.github.io/3-column-preview-card-component/)
+
+## My process
+
+- Use Google drawing to draw boxes as per design
+- Add BEM class names against each of the boxes
+- Create HTML -> add BEM class names
+- Mobile screen styling first
+- Use media query to design for desktop
+
+### Built with
+
+- Semantic HTML5 markup
+- BEM
+- CSS
+- Grid
+- Mobile First workflow
+
+### Useful resources
+
+- Check Acknowledgments section
 
 ## Author
 
