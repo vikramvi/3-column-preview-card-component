@@ -68,9 +68,6 @@
   color: var(--text-color-transparent-white);
 }
 
-.card__button-container {
-  margin: 1em;
-}
 .card__button {
   padding: 0.75em 1.25em;
   border-radius: 1.5em;
